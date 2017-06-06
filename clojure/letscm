@@ -1,0 +1,28 @@
+(ns user (:use clojure.pprint))
+
+(defmacro let-scm [args & ops]
+   `(let ~(into [] (apply concat args)) ~@ops))
+
+(defn print-and-val [val]
+   (println "this should only print once")
+   val)
+
+(def testone
+   (let-scm ((x (+ 5 5))
+      (y (print-and-val 20))
+      (z 30))
+      (println "x =" x)
+      (println "y =" y)
+      (println "z =" z)
+      (+ x y z)))
+
+(def testtwo
+   (pprint
+      (macroexpand-1
+      '(let-scm ((x (+ 5 5))
+         (y (print-and-val 20))
+         (z 30))
+      (println "x =" x)
+      (println "y =" y)
+      (println "z =" z)
+      (+ x y z)))))

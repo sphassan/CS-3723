@@ -1,0 +1,11 @@
+(def one
+   (fn rev [x]
+      (reduce conj '() x)))
+
+(def two
+   (fn pal [x]
+      (= (seq x) (reduce conj '() x))))
+
+(def three
+   (fn fac [x]
+      (reduce * (range 1 (inc x)))))

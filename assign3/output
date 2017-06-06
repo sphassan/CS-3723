@@ -1,0 +1,51 @@
+persistent_vector of 9 elements with height 3
+
+node 0x7ffb4a4036f8 : 0x7ffb4a403678 0x7ffb4a4036b8
+
+node 0x7ffb4a403678 : 0x7ffb4a403448 0x7ffb4a403598
+
+node 0x7ffb4a403448 : 0x7ffb4a403338 0x7ffb4a403388
+
+leaf 0x7ffb4a403338 : 1 2
+
+leaf 0x7ffb4a403388 : 3 4
+
+node 0x7ffb4a403598 : 0x7ffb4a403408 0x7ffb4a403488
+
+leaf 0x7ffb4a403408 : 5 6
+
+leaf 0x7ffb4a403488 : 7 8
+
+node 0x7ffb4a4036b8 : 0x7ffb4a4035f8 0x0
+
+node 0x7ffb4a4035f8 : 0x7ffb4a4034c8 0x0
+
+leaf 0x7ffb4a4034c8 : 9
+
+persistent_vector of 9 elements with height 3
+
+node 0x7ffb4a4037b8 : 0x7ffb4a403778 0x7ffb4a4036b8
+
+node 0x7ffb4a403778 : 0x7ffb4a403448 0x7ffb4a403738
+
+node 0x7ffb4a403448 : 0x7ffb4a403338 0x7ffb4a403388
+
+leaf 0x7ffb4a403338 : 1 2
+
+leaf 0x7ffb4a403388 : 3 4
+
+node 0x7ffb4a403738 : 0x7ffb4a403408 0x7ffb4a403638
+
+leaf 0x7ffb4a403408 : 5 6
+
+leaf 0x7ffb4a403638 : 700 8
+
+node 0x7ffb4a4036b8 : 0x7ffb4a4035f8 0x0
+
+node 0x7ffb4a4035f8 : 0x7ffb4a4034c8 0x0
+
+leaf 0x7ffb4a4034c8 : 9
+
+element 6 of pv is  7
+
+element 6 of pv2 is 700s
